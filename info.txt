@@ -1,0 +1,6 @@
+This is intended for movie-making.
+
+It shows Class, HP, Ammo & Uber %. I've added minimal TargetID that only show HP.
+
+
+PS: You can transfer the HudMedicCharge.res, HudPlayerClass.res, HudPlayerHealth.res & HudAmmoWeapons.res for a "to the sides" interface for the regular FLV HUD. This is not a properly supported option, it's purely experimental. It will clip with disguises.
