@@ -414,7 +414,7 @@
 						"proportionaltoparent"	"1"
 						"progress"		"0"
 
-						"fgcolor_override"	"Flavor"
+						"fgcolor_override"	"White"
 
 						"if_mini"
 						{
