@@ -3925,9 +3925,59 @@ Scheme
 			"1"
 			{
 				"name"		"AvenirLTStd-Medium"
+				"tall"		"12"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"13"	[$WIN32]
+				"tall"		"20"	[$X360]
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"14"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"20"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5" // Misyl: Proportional
+			{
+				"name"		"AvenirLTStd-Medium"
 				"tall"		"9"
-				"additive"	"0"
-				"antialias" "1"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"900"
+			}
+			"7"
+			{
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"800"
 			}
 		}
 
@@ -3986,9 +4036,8 @@ Scheme
 			"5"
 			{
 				"name"		"AvenirLTStd-Medium"
-				"tall"		"20"
+				"tall"		"9"
 				"range"		"0x0000 0x017F"
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
@@ -4042,7 +4091,6 @@ Scheme
 			{
 				"name"		"MediumNumbers"
 				"tall"		"9"
-				"yres"	"900 1023"
 				"antialias" 	"1"
 			}
 			"6"
@@ -4089,9 +4137,8 @@ Scheme
 			"5"
 			{
 				"name"		"AvenirLTStd-Medium"
-				"tall"		"28"
+				"tall"		"18"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
 				"antialias" 	"1"
 			}
 			"6"
@@ -4168,8 +4215,7 @@ Scheme
 			"5"
 			{
 				"name"		"AvenirLTStd-Medium"
-				"tall"		"22"
-				"yres"	"1200 10000"
+				"tall"		"12"
 				"antialias" 	"1"
 			}
 		}
@@ -4207,7 +4253,7 @@ Scheme
 			"5"
 			{
 				"name"		"AvenirLTStd-Medium"
-				"tall"		"48"
+				"tall"		"24"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -4276,13 +4322,23 @@ Scheme
 		}
 		"HudFontMediumSecondary"
 		{
-			"1"
-			{
-				"name"		"AvenirLTStd-Medium"
-				"tall"		"22"
-				"additive"	"0"
-				"antialias" "1"
-			}
+           	"1"
+            {
+                "name"        "AvenirLTStd-Medium"
+                "tall"        "24"
+                "weight"      "500"
+                "yres"        "1 1199"
+                "additive"    "0"
+                "antialias"   "1"
+            }
+           	"2" 
+            {
+                "name"        "AvenirLTStd-Medium"
+                "tall"        "10"
+                "weight"      "500"
+                "additive"    "0"
+                "antialias"   "1"
+            }
 		}
 		"HudFontMediumBold"
 		{
